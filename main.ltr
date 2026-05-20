@@ -1,0 +1,17 @@
+app Lynxtr {
+
+    let name = "My Website"
+
+    web {
+
+        path "./web"
+        port 8080
+
+        public true
+        https true
+
+        domain "web-saya"
+
+    }
+
+}
