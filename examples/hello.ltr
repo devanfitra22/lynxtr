@@ -1,0 +1,11 @@
+halaman "Lynxtr Demo" {
+    judul "Halo Dunia"
+    teks "Ini adalah halaman yang dibuat dengan Lynxtr JavaScript."
+    gambar "https://placehold.co/800x400"
+    input "Masukkan nama" {
+        nama "name"
+    }
+    tombol "Sapa" {
+        aksi "alert('Halo dari Lynxtr!')"
+    }
+}
