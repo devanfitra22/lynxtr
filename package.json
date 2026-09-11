@@ -1,0 +1,10 @@
+{
+  "name": "lynxtr",
+  "version": "1.0.0",
+  "description": "A small JavaScript-based markup language for generating HTML.",
+  "type": "module",
+  "bin": { "lynxtr": "./bin/lynxtr.js" },
+  "scripts": { "build": "node bin/lynxtr.js build examples/hello.ltr" },
+  "keywords": ["lynxtr", "markup", "html", "javascript", "compiler"],
+  "license": "MIT"
+}
